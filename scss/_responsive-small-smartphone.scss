@@ -1,0 +1,117 @@
+@media (max-width: 391px) {
+  /*-----------HEADER-----------*/
+  .cloud-gaming {
+      display: none;
+    }
+  .menu-nav ul { /*--BARRA DE NAVEGACION--*/
+      display: none;
+    }
+  .color-nav-mobile {
+      background-color: var(--color-primario);
+    }
+  .sin-borde {
+      border: none;
+    }
+    .menu-mobile a {
+        display: flex;
+        justify-content: center;
+        color: var(--color-secundario);
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 14px 0px 14px 0px;
+      }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url(../images/icon/more.png);
+      }
+  /*-----------MAIN-----------*/
+  
+  .titulo-flex { /*--TITULO MAIN--*/
+    display: flex;
+    margin: 0% 0% 0% 3%;
+    color: var(--color-secundario);
+    padding: 20px 0px 0px 0px;
+    }
+    .articulos-titulo {
+        padding: 2px 0px 0px 0px;
+      }
+    .titulo {
+        font-weight: bold;
+        font-size: larger;
+        color: var(--color-secundario);
+        margin: 0px 10px;
+      }
+  .menu-lat {
+      display: none;
+    }
+  .articulos { /*--CAJAS DE PUBLICACIONES--*/
+      margin: 5px;
+      width: 100px;
+      & a img {
+          width: 100px;
+        }
+    }
+
+  .descripcion a {
+      border-bottom: solid 10px;
+      border-color: var(--color-primario);
+      font-size: 14px;
+      padding: 4px;
+    }
+  .precio {
+      font-size: larger;
+    }
+  .cuotas {
+      font-size: 15px;
+    }
+  .ver-mas {
+      margin: 0;
+      & a {
+        padding: 4px 2px 4px 2px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        border-radius: 5px;
+      }
+    }
+  /*-----------FOOTER-----------*/
+  .padre1 {
+      flex-direction: column;
+    }
+  .categorias {
+      display: none;
+    }
+  .separacion {
+      margin: 10px;
+    }
+  .mobile {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      width: 100%;
+    }
+  
+  /*-----------CONTACTO-----------*/
+  .articulos-contacto {
+      width: 100%;
+    }
+  .formulario {
+      width: 90%;
+    }
+  .textarea {
+      width: 90%;
+    }
+  .terminos {
+      width: 70%;
+      margin: 0px 0px 0px 5px;
+    }
+  .enviar {
+      margin-bottom: 15px;
+      font-size: 15px;
+      width: 80%;
+    }
+  /*-----------FAQ-----------*/
+  .articulos-faq {
+      width: 100%;
+      min-width: 200px;
+    }
+}

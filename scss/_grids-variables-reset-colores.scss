@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  --color-primario: #25C8FF;
+  --color-secundario: white;
+  --color-oscuro: rgba(22, 22, 22, 0.8);
+}
+
+/*---------------------------------------------------------------*/
+/*-----------GRIDS-----------*/
+#grids {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 100fr 1fr;
+  grid-template-areas:
+  "cabeza"
+  "baner"
+  "publicaciones"
+  "pie";
+        .encabezado {
+            grid-area: cabeza;
+        }
+        .banner {
+            grid-area: baner;
+        }
+        .contenido {
+            grid-area: publicaciones
+        }
+        .pie-pagina {
+            grid-area: pie;
+        }
+}
+/*-----------FUENTES----------*/
+.x-large {
+    font-size: x-large;
+    color:var(--color-primario);
+    font-weight: normal;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.7);
+}
+.bold {
+    font-weight: bold;
+}
+.sin-estilo {
+    text-decoration: none;
+    list-style: none;
+    color: var(--color-secundario);
+}

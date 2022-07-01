@@ -1,0 +1,83 @@
+/*-----------HEADER-----------*/
+  .header-flex2 {
+      background: rgb(3,18,10);
+      background: linear-gradient(90deg, rgba(3,18,10,1) 0%, rgba(81,194,228,0.8477766106442577) 50%, rgba(190,190,190,0.9542191876750701) 100%);  
+    }
+    .header-superior {
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+      }
+      .logo-nombre {   /*--NUBE.PNG--*/
+          display: flex;
+          align-items: center;
+        }
+          .cloud-gaming {   /*--CLOUD GAMING--*/
+              text-decoration: none;
+              color: var(--color-primario);
+              font-size: xx-large;
+              font-weight: bold;
+              margin: 10px 0px 10px 0px;
+              & a:hover {
+                  color: var(--color-primario);
+                }
+            }
+
+          .barra-busqueda { /*--BARRA BUSQUEDA--*/
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: row;
+              width: 100%;
+              & input {
+                  padding: 15px;
+                  border-radius: 10px;
+                  min-width: 5%;
+                  width: 60%;
+                  height: 50px;
+                  border: solid 3px;
+                  border-color: var(--color-primario);
+                }
+            }
+
+            .header-icons {   /*--ICONS.PNG--*/
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+              }
+            .tamaño-iconos {
+                width: 50px;
+                height: 50px;
+              }
+/*-----------FOOTER-----------*/
+footer {
+    border-top: solid 5px;
+    border-color: var(--color-primario);
+    background: rgb(3,18,10);
+    background: linear-gradient(90deg, rgba(3,18,10,1) 0%, rgba(81,194,228,0.8477766106442577) 50%, rgba(190,190,190,0.9542191876750701) 100%);
+  }
+
+  .padre1 {
+      display: flex;
+      justify-content: center;
+    }
+    .separacion {
+      margin: 15px 3vh;
+      & a:hover {
+          color: var(--color-primario);
+        }
+    }
+  
+    .sin-estilo li {
+        margin: 10px;
+        text-shadow: 2px 2px 2px rgba(0,0,0,0.7);
+      }
+      .seguinos {
+          text-align: center;
+          margin: 10px;
+          text-decoration: none;
+        }
+  .mobile {
+      display: flex;
+    }
+  

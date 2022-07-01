@@ -1,0 +1,112 @@
+@media (min-width: 392px) and (max-width: 730px) {
+  /*-----------HEADER-----------*/
+  .cloud-gaming {
+      display: none;
+    }
+  .menu-nav ul { /*--BARRA DE NAVEGACION--*/
+      display: none;
+    }
+  .color-nav-mobile {
+      background-color: var(--color-primario);
+    }
+  .sin-borde {
+      border: none;
+    }
+  .menu-mobile a {
+      display: flex;
+      justify-content: center;
+      color: var(--color-secundario);
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px;
+      padding: 14px 0px 14px 0px;
+    }
+  .navbar-light .navbar-toggler-icon {
+      background-image: url(../images/icon/more.png); /*-----------CAMBIE ICONO DE HAMBURGUESA DEL MENU BOOTSTRAP------------------------------*/
+    }
+  /*-----------MAIN-----------*/
+
+  .titulo-flex { /*--TITULO MAIN--*/
+      display: flex;
+      margin: 0% 0% 0% 3%;
+      color: var(--color-secundario);
+      padding: 20px 0px 0px 0px;
+    }
+  .articulos-titulo {
+      padding: 2px 0px 0px 0px;
+    }
+  .titulo {
+      font-weight: bold;
+      font-size: larger;
+      color: var(--color-secundario);
+      margin: 0px 10px;
+    }
+  .menu-lat {
+      display: none;
+    }
+  .articulos { /*--CAJAS DE PUBLICACIONES--*/
+      margin: 5px;
+      width: 150px;
+      & a img {
+          width: 150px;
+        }
+    }
+  .descripcion a {
+      border-bottom: solid 10px;
+      border-color: var(--color-primario);
+      padding: 5px;
+    }
+  .precio {
+      font-size: x-large;
+    }
+  .ver-mas {
+      padding: 4px 2px 4px 2px;
+      margin-bottom: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      & a {
+          padding: 4px 0px 2px 0px;
+          font-size: 17px;
+        }
+    }
+
+  /*-----------FOOTER-----------*/
+  .padre1 {
+      flex-direction: column;
+    }
+  .categorias {
+      display: none;
+    }
+  .separacion {
+      margin: 10px;
+    }
+  .mobile {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      width: 100%;
+    }
+  /*-----------CONTACTO-----------*/
+  .articulos-contacto {
+      width: 100%;
+    }
+  .formulario {
+      width: 90%;
+    }
+  .textarea {
+      width: 90%;
+    }
+  .terminos {
+      width: 70%;
+      margin: 0px 0px 0px 5px;
+    }
+  .enviar {
+      margin-bottom: 15px;
+      font-size: 15px;
+      width: 80%;
+    }
+  .articulos-faq {
+      width: 85%;
+      min-width: 200px;
+    }
+}
